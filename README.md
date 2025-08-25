@@ -13,7 +13,7 @@ Ultimately, when we launch the bug bounty, this repo will be made public and wil
 
 - [ ] Modify the contents of this README.md file. Describe how your code is supposed to work with links to any relevent documentation and any other criteria/details that the C4 Wardens should keep in mind when reviewing.
 
-# [Project] Bug Bounty
+# Blackhole Bug Bounty
 
 [⚡️**Project:** Please add award levels below:]
 
