@@ -148,7 +148,7 @@ Bug reports covering previously-discovered bugs listed below are not eligible fo
   * While creating Gauge for CL pool We’re transferring 10^-8 black which is not an issue as it can’t be exploited because of sufficient require statement to create Gauge
 
 
-Additionally, any \*\*previously reported\*\* vulnerabilities mentioned in previous audit reports are not eligible for a reward.
+Additionally, any **previously reported** vulnerabilities mentioned in previous audit reports are not eligible for a reward.
 
 ## Previous Audits
 
