@@ -1,25 +1,9 @@
-\# Welcome to your bounty repo  
-This file contains information around how to set-up your README.md and prepare for our collaboration.
-
-\*\*Bug Bounties use two repos\*\*:
-
-\- a bug bounty repo (this one), which is used for scoping your bug bounty and for providing information to wardens  
-\- a submissions repo, where issues are submitted
-
-Ultimately, when we launch the bug bounty, this repo will be made public and will contain links to the in-scope files to be reviewed and all the information needed for bounty participants.
-
-\*\*Action item for sponsors:\*\*
-
-\- \[ \] Modify the contents of this README.md file. Describe how your code is supposed to work with links to any relevent documentation and any other criteria/details that the C4 Wardens should keep in mind when reviewing.
-
-# 
-
 # Blackhole Bug Bounty
 
 | Risk Score | Payout |
 | :---- | :---- |
-| Critical |  $\[100,000 worth of $BLACK\] |
-| High | $\[25,000 worth of $BLACK\]  |
+| Critical |  $100,000 worth of $BLACK |
+| High | $25,000 worth of $BLACK  |
 
 Payouts are handled by the Blackhole Foundation directly and are denominated in USD. Payouts will be made in $BLACK calculated at the current exchange rate listed on Coingecko on the day of disbursement. 
 
