@@ -168,9 +168,9 @@ Theoretical vulnerabilities which can be introduced by a trusted role in an upgr
 
 ## Additional Context
 
-### Trusted Roles Roles: [https://docs.google.com/document/d/1iQyP3XjMiDiYE6YibP-QObtVZ3zyANLNDnvgOBPmnQc/edit?tab=t.6rbnob5qq00t](https://docs.google.com/document/d/1iQyP3XjMiDiYE6YibP-QObtVZ3zyANLNDnvgOBPmnQc/edit?tab=t.6rbnob5qq00t)
+ [Trusted Roles](https://docs.google.com/document/d/1iQyP3XjMiDiYE6YibP-QObtVZ3zyANLNDnvgOBPmnQc/edit?tab=t.6rbnob5qq00t)
 
-Owner:[https://docs.google.com/document/d/1iQyP3XjMiDiYE6YibP-QObtVZ3zyANLNDnvgOBPmnQc/edit?tab=t.i4d1qm5kpy66](https://docs.google.com/document/d/1iQyP3XjMiDiYE6YibP-QObtVZ3zyANLNDnvgOBPmnQc/edit?tab=t.i4d1qm5kpy66)
+[Owner](https://docs.google.com/document/d/1iQyP3XjMiDiYE6YibP-QObtVZ3zyANLNDnvgOBPmnQc/edit?tab=t.i4d1qm5kpy66)
 
 ### Miscellaneous
 
