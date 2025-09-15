@@ -54,7 +54,7 @@ The payout for smart contract vulnerabilities is based on the total value of fun
 
 Payout ratios for critical and high severity bugs are awarded based on the total value at risk (TVL) in currently deployed contracts. Payout ratios are applied as follows:
 
-* below $50,000,000 – 50% of the category bounty  
+* Below $50,000,000 – 50% of the category bounty  
 * $50,000,000 to $125,000,000 – 75% of the category bounty  
 * Above $125,000,000 – 100% of the category bounty
 
@@ -107,6 +107,12 @@ Payout ratios for critical and high severity bugs are awarded based on the total
   * SetterTopNPoolStrategy.sol   
   * SetterVoterWeightStrategy.sol   
   * FixedAuction.sol 
+* Others
+   * PermissionsRegistry.sol
+   * BlackClaim.sol
+   * AuctionFactory.sol
+   * BlackTimeLibrary.sol
+   * VoterFactoryLib.sol
 
 [https://github.com/BlackHoleDEX/Contracts](https://github.com/BlackHoleDEX/Contracts)
 
@@ -133,6 +139,9 @@ Payout ratios for critical and high severity bugs are awarded based on the total
   * IWrappedBribeFactory  
 * BlackGovernor.sol  
 * TradeHelper.sol
+* CustomToken.sol
+* GlobalRouter.sol
+* Wavax.sol
 
 ## Known Issues
 
@@ -147,12 +156,11 @@ Bug reports covering previously-discovered bugs listed below are not eligible fo
 * GaugeFactoryCL.sol: createGauge:   
   * While creating Gauge for CL pool We’re transferring 10^-8 black which is not an issue as it can’t be exploited because of sufficient require statement to create Gauge
 
-
 Additionally, any **previously reported** vulnerabilities mentioned in previous audit reports are not eligible for a reward.
 
 ## Previous Audits
 
-Previous audits can be found below: https://docs.blackhole.xyz/security
+Previous audits can be found at: https://docs.blackhole.xyz/security
 
 ## Specific Types of Issues
 
@@ -168,7 +176,7 @@ Theoretical vulnerabilities which can be introduced by a trusted role in an upgr
 
 ## Additional Context
 
- [Trusted Roles](https://docs.google.com/document/d/1iQyP3XjMiDiYE6YibP-QObtVZ3zyANLNDnvgOBPmnQc/edit?tab=t.6rbnob5qq00t)
+[Trusted Roles](https://docs.google.com/document/d/1iQyP3XjMiDiYE6YibP-QObtVZ3zyANLNDnvgOBPmnQc/edit?tab=t.6rbnob5qq00t)
 
 [Owner](https://docs.google.com/document/d/1iQyP3XjMiDiYE6YibP-QObtVZ3zyANLNDnvgOBPmnQc/edit?tab=t.i4d1qm5kpy66)
 
