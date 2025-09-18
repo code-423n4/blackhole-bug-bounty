@@ -58,7 +58,7 @@ The payout for smart contract vulnerabilities is based on the total value of fun
 Payout ratios for critical and high severity bugs are awarded based on the total value at risk (TVL) in currently deployed contracts. Payout ratios are applied as follows:
 
 * Below $50,000,000 – 50% of the category bounty  
-* $50,000,000 to $125,000,000 – 75% of the category bounty  
+* &#36;50,000,000 to $125,000,000 – 75% of the category bounty  
 * Above $125,000,000 – 100% of the category bounty
 
 ### Smart Contracts in Scope
