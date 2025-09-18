@@ -5,8 +5,8 @@
 
 | Risk Score | Payout |
 | :---- | :---- |
-| Critical |  $100,000 worth of $BLACK |
-| High | $25,000 worth of $BLACK  |
+| Critical |  &#36;100,000 worth of &#36;BLACK |
+| High | &#36;25,000 worth of &#36;BLACK  |
 
 Payouts are handled by the Blackhole Foundation directly and are denominated in USD. Payouts will be made in $BLACK calculated at the current exchange rate listed on Coingecko on the day of disbursement. 
 
