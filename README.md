@@ -158,6 +158,10 @@ Bug reports covering previously-discovered bugs listed below are not eligible fo
   * This function is not being used for claiming CL Pool’s emission. It has inherent flaw, when it calls **farmingCenter.claimReward** the msg.sender in farmingCenter contract will be GaugeCL which won't work as msg.sender should be user. So we’re using multiCall from the client directly to call FarmingCenter.ClaimReward.   
 * GaugeFactoryCL.sol: createGauge:   
   * While creating Gauge for CL pool We’re transferring 10^-8 black which is not an issue as it can’t be exploited because of sufficient require statement to create Gauge
+* GenesisPool:
+  * GenesisPoolManager.depositNativeToken can be called from a whitelisted address even when the previous GenesisPool is not in the not_qualified state. This could result in unintended updates to the GenesisPool’s allocation info, start time, and duration.
+  * Potential DoS attack before calling GenesisPoolManager.approveGenesisPool: Anyone can deposit tokens directly into the Pair address created during the nativeTokenDeposit step and then call sync on that Pair. This would create a non-zero reserve, causing the approveGenesisPool step to fail.
+  * Potential token ratio manipulation in the Pool: If tokens are deposited directly into the Pair address after the GenesisPoolApproval step, the final token balances in the Pair will not match the amounts defined in the GenesisPool. This could distort the initial nativeToken price at launch.
 
 There are several known issues in the **out of scope** Genesis pool contracts, which can be reviewed [here](https://docs.google.com/document/d/1Av-uiPXbK_2ytIbbK2Qid-QrkdTt_dkrtYq1qmy-aRQ/edit?tab=t.0).
 
