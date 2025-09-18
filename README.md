@@ -163,7 +163,7 @@ Bug reports covering previously-discovered bugs listed below are not eligible fo
   * Potential DoS attack before calling GenesisPoolManager.approveGenesisPool: Anyone can deposit tokens directly into the Pair address created during the nativeTokenDeposit step and then call sync on that Pair. This would create a non-zero reserve, causing the approveGenesisPool step to fail.
   * Potential token ratio manipulation in the Pool: If tokens are deposited directly into the Pair address after the GenesisPoolApproval step, the final token balances in the Pair will not match the amounts defined in the GenesisPool. This could distort the initial nativeToken price at launch.
 
-There are several known issues in the **out of scope** Genesis pool contracts, which can be reviewed [here](https://docs.google.com/document/d/1Av-uiPXbK_2ytIbbK2Qid-QrkdTt_dkrtYq1qmy-aRQ/edit?tab=t.0).
+More detail on the known issues in the **out of scope** Genesis pool contracts can be found [here](https://docs.google.com/document/d/1Av-uiPXbK_2ytIbbK2Qid-QrkdTt_dkrtYq1qmy-aRQ/edit?tab=t.0).
 
 Additionally, any **previously reported** vulnerabilities mentioned in previous audit reports are not eligible for a reward.
 
