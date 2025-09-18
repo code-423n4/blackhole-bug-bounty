@@ -99,11 +99,6 @@ Payout ratios for critical and high severity bugs are awarded based on the total
   * TokenApi  
   * TradeHelper  
   * VeNFTApiV1  
-* GenesisPool  
-  * GenesisPoolManager.sol  
-  * GenesisPoolFactory.sol  
-  * GenesisPool.sol  
-  * Interfaces  
 * AVM   
   * AutoVotingEscrowManager.sol  
   * AutoVotingEscrow.sol  
@@ -119,7 +114,7 @@ Payout ratios for critical and high severity bugs are awarded based on the total
 
 [https://github.com/BlackHoleDEX/Contracts](https://github.com/BlackHoleDEX/Contracts)
 
-### Out-of-Scope
+### Out of Scope
 
 * VeNFTApi.sol  
 * ChainLink  
@@ -127,6 +122,11 @@ Payout ratios for critical and high severity bugs are awarded based on the total
   * AutomationCompatible.sol  
   * AutomationCompatibleInterface.sol  
   * EpochController.sol  
+* GenesisPool  
+  * GenesisPoolManager.sol  
+  * GenesisPoolFactory.sol  
+  * GenesisPool.sol  
+  * Interfaces  
 * Governance:  
   * Governor.sol  
   * IGovernor.sol  
@@ -158,6 +158,8 @@ Bug reports covering previously-discovered bugs listed below are not eligible fo
   * This function is not being used for claiming CL Pool’s emission. It has inherent flaw, when it calls **farmingCenter.claimReward** the msg.sender in farmingCenter contract will be GaugeCL which won't work as msg.sender should be user. So we’re using multiCall from the client directly to call FarmingCenter.ClaimReward.   
 * GaugeFactoryCL.sol: createGauge:   
   * While creating Gauge for CL pool We’re transferring 10^-8 black which is not an issue as it can’t be exploited because of sufficient require statement to create Gauge
+
+There are several known issues in the **out of scope** Genesis pool contracts, which can be reviewed [here](https://docs.google.com/document/d/1Av-uiPXbK_2ytIbbK2Qid-QrkdTt_dkrtYq1qmy-aRQ/edit?tab=t.0).
 
 Additionally, any **previously reported** vulnerabilities mentioned in previous audit reports are not eligible for a reward.
 
