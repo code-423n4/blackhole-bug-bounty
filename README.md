@@ -105,6 +105,11 @@ Payout ratios for critical and high severity bugs are awarded based on the total
   * SetterTopNPoolStrategy.sol   
   * SetterVoterWeightStrategy.sol   
   * FixedAuction.sol 
+* GenesisPool  
+  * GenesisPoolManager.sol  
+  * GenesisPoolFactory.sol  
+  * GenesisPool.sol  
+  * Interfaces 
 * Others
    * PermissionsRegistry.sol
    * BlackClaim.sol
@@ -122,11 +127,6 @@ Payout ratios for critical and high severity bugs are awarded based on the total
   * AutomationCompatible.sol  
   * AutomationCompatibleInterface.sol  
   * EpochController.sol  
-* GenesisPool  
-  * GenesisPoolManager.sol  
-  * GenesisPoolFactory.sol  
-  * GenesisPool.sol  
-  * Interfaces  
 * Governance:  
   * Governor.sol  
   * IGovernor.sol  
